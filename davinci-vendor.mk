@@ -16,10 +16,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/davinci/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/xiaomi/davinci/proprietary/bin/hw/android.hardware.power@1.0-service:system/bin/hw/android.hardware.power@1.0-service \
     vendor/xiaomi/davinci/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/xiaomi/davinci/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/xiaomi/davinci/proprietary/etc/init/android.hardware.power@1.0-service.rc:system/etc/init/android.hardware.power@1.0-service.rc \
     vendor/xiaomi/davinci/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/xiaomi/davinci/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/xiaomi/davinci/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
